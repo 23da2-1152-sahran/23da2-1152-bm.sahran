@@ -1,0 +1,39 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "senior-fashion",
+          "appId": "1:481512803877:android:aab30ebc529987f9b3b9cc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "senior-fashion",
+          "appId": "1:481512803877:ios:181a0e5e050dfd36b3b9cc",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "senior-fashion",
+          "configurations": {
+            "android": "1:481512803877:android:aab30ebc529987f9b3b9cc",
+            "ios": "1:481512803877:ios:8e94f6162ef64925b3b9cc",
+            "macos": "1:481512803877:ios:181a0e5e050dfd36b3b9cc",
+            "web": "1:481512803877:web:b84cc0e9c939ef49b3b9cc",
+            "windows": "1:481512803877:web:552ef19cfcccfb65b3b9cc"
+          }
+        }
+      }
+    }
+  }
+}

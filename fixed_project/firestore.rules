@@ -1,0 +1,67 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function owns(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+
+    function admin() {
+      return signedIn() && request.auth.token.admin == true;
+    }
+
+    function validCart() {
+      return request.resource.data.keys().hasOnly(['items', 'updatedAt'])
+        && request.resource.data.items is list;
+    }
+
+    function validOrderCreate() {
+      return request.resource.data.keys().hasOnly([
+          'id',
+          'userId',
+          'items',
+          'subtotal',
+          'tax',
+          'shipping',
+          'total',
+          'status',
+          'createdAt',
+          'updatedAt',
+          'shippingAddress'
+        ])
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.items is list
+        && request.resource.data.subtotal is number
+        && request.resource.data.tax is number
+        && request.resource.data.shipping is number
+        && request.resource.data.total is number
+        && request.resource.data.status is string;
+    }
+
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if admin();
+    }
+
+    match /users/{userId} {
+      allow read, create, update: if owns(userId);
+      allow delete: if false;
+    }
+
+    match /carts/{userId} {
+      allow read, delete: if owns(userId);
+      allow create, update: if owns(userId) && validCart();
+    }
+
+    match /orders/{orderId} {
+      allow create: if signedIn() && validOrderCreate();
+      allow read: if signedIn() && resource.data.userId == request.auth.uid;
+      allow update: if admin();
+      allow delete: if false;
+    }
+  }
+}

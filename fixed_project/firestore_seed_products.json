@@ -1,0 +1,88 @@
+{
+  "products": {
+    "sculptural-wool-overcoat": {
+      "name": "Sculptural Wool Overcoat",
+      "subtitle": "Oatmeal Melange",
+      "price": 480.0,
+      "badge": "NEW",
+      "imageUrl": "assets/sculptural_wool_overcoat.png",
+      "collection": "WINTER COLLECTION '24",
+      "colors": ["Oatmeal", "Charcoal", "Camel"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "description": "A masterclass in minimal structure. Crafted from premium 100% virgin wool, this coat features defined shoulders and a sleek, hidden placket for a clean editorial silhouette.",
+      "category": "Outerwear",
+      "stock": 15,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "archival-leather-bag": {
+      "name": "Archival Leather Bag",
+      "subtitle": "Noir Calfskin",
+      "price": 1250.0,
+      "badge": null,
+      "imageUrl": "assets/archival_leather_bag.png",
+      "collection": "ACCESSORIES",
+      "colors": ["Noir", "Cognac"],
+      "sizes": ["One Size"],
+      "description": "Structured calfskin leather bag with architectural form and minimal hardware.",
+      "category": "Accessories",
+      "stock": 8,
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    "pleated-flux-trousers": {
+      "name": "Pleated Flux Trousers",
+      "subtitle": "Charcoal Silk Mix",
+      "price": 320.0,
+      "badge": null,
+      "imageUrl": "assets/pleated_flux_trousers.jpeg",
+      "collection": "STUDIO COLLECTION",
+      "colors": ["Charcoal", "Ivory"],
+      "sizes": ["XS", "S", "M", "L"],
+      "description": "Wide-leg silhouette in luxurious silk-blend fabric with editorial drape.",
+      "category": "Trousers",
+      "stock": 22,
+      "createdAt": "2024-01-03T00:00:00.000Z"
+    },
+    "ribbed-cashmere-knit": {
+      "name": "Ribbed Cashmere Knit",
+      "subtitle": "Ivory White",
+      "price": 240.0,
+      "badge": "BESTSELLER",
+      "imageUrl": "assets/ribbed_cashmere_knit.png",
+      "collection": "NEW ARRIVALS",
+      "colors": ["Ivory", "Oat", "Smoke"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "description": "Pure cashmere ribbed construction with relaxed oversized profile.",
+      "category": "Knitwear",
+      "stock": 30,
+      "createdAt": "2024-01-04T00:00:00.000Z"
+    },
+    "structured-linen-blazer": {
+      "name": "Structured Linen Blazer",
+      "subtitle": "Ecru Linen",
+      "price": 385.0,
+      "badge": null,
+      "imageUrl": "assets/structured_linen_blazer.png",
+      "collection": "SUMMER SENIOR 2024",
+      "colors": ["Ecru", "Navy"],
+      "sizes": ["XS", "S", "M", "L"],
+      "description": "Architectural blazer in pure linen with sharp lapels and structured shoulders.",
+      "category": "Jackets",
+      "stock": 18,
+      "createdAt": "2024-01-05T00:00:00.000Z"
+    },
+    "classic-archive-trench": {
+      "name": "Classic Archive Trench",
+      "subtitle": "Camel Gabardine",
+      "price": 385.0,
+      "badge": null,
+      "imageUrl": "assets/classic_archive_trench.png",
+      "collection": "SENIOR ESSENTIALS",
+      "colors": ["Camel", "Black"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "description": "Timeless trench coat silhouette reimagined in premium gabardine.",
+      "category": "Outerwear",
+      "stock": 12,
+      "createdAt": "2024-01-06T00:00:00.000Z"
+    }
+  }
+}

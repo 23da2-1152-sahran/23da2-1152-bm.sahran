@@ -1,0 +1,523 @@
+{
+  "users": {
+    "user_001": {
+      "uid": "user_001",
+      "email": "amaya.perera@example.com",
+      "displayName": "Amaya Perera",
+      "phoneNumber": "+94771234567",
+      "profileImageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+      "shippingAddress": "42 Park Street",
+      "city": "Colombo",
+      "postalCode": "00700",
+      "country": "Sri Lanka",
+      "createdAt": "2026-01-10T08:30:00.000Z",
+      "updatedAt": "2026-01-10T08:30:00.000Z"
+    },
+    "user_002": {
+      "uid": "user_002",
+      "email": "naveen.silva@example.com",
+      "displayName": "Naveen Silva",
+      "phoneNumber": "+94772345678",
+      "profileImageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+      "shippingAddress": "18 Lake Road",
+      "city": "Kandy",
+      "postalCode": "20000",
+      "country": "Sri Lanka",
+      "createdAt": "2026-01-12T10:15:00.000Z",
+      "updatedAt": "2026-01-12T10:15:00.000Z"
+    },
+    "user_003": {
+      "uid": "user_003",
+      "email": "sarah.jay@example.com",
+      "displayName": "Sarah Jayawardena",
+      "phoneNumber": "+94773456789",
+      "profileImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+      "shippingAddress": "7 Palm Avenue",
+      "city": "Galle",
+      "postalCode": "80000",
+      "country": "Sri Lanka",
+      "createdAt": "2026-01-15T12:45:00.000Z",
+      "updatedAt": "2026-01-15T12:45:00.000Z"
+    },
+    "user_004": {
+      "uid": "user_004",
+      "email": "dilan.fernando@example.com",
+      "displayName": "Dilan Fernando",
+      "phoneNumber": "+94774567890",
+      "profileImageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
+      "shippingAddress": "91 Marine Drive",
+      "city": "Negombo",
+      "postalCode": "11500",
+      "country": "Sri Lanka",
+      "createdAt": "2026-01-18T14:20:00.000Z",
+      "updatedAt": "2026-01-18T14:20:00.000Z"
+    },
+    "user_005": {
+      "uid": "user_005",
+      "email": "leah.mendis@example.com",
+      "displayName": "Leah Mendis",
+      "phoneNumber": "+94775678901",
+      "profileImageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+      "shippingAddress": "63 Garden Lane",
+      "city": "Jaffna",
+      "postalCode": "40000",
+      "country": "Sri Lanka",
+      "createdAt": "2026-01-20T16:10:00.000Z",
+      "updatedAt": "2026-01-20T16:10:00.000Z"
+    }
+  },
+  "categories": {
+    "womens_outerwear": {
+      "id": "womens_outerwear",
+      "name": "Women's Outerwear",
+      "slug": "womens-outerwear",
+      "gender": "Women",
+      "description": "Coats, trenches, and tailored outer layers.",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900",
+      "sortOrder": 1,
+      "isActive": true
+    },
+    "mens_tailoring": {
+      "id": "mens_tailoring",
+      "name": "Men's Tailoring",
+      "slug": "mens-tailoring",
+      "gender": "Men",
+      "description": "Blazers, shirts, and structured wardrobe essentials.",
+      "imageUrl": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=900",
+      "sortOrder": 2,
+      "isActive": true
+    },
+    "womens_dresses": {
+      "id": "womens_dresses",
+      "name": "Women's Dresses",
+      "slug": "womens-dresses",
+      "gender": "Women",
+      "description": "Minimal dresses for day and evening styling.",
+      "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=900",
+      "sortOrder": 3,
+      "isActive": true
+    },
+    "mens_knitwear": {
+      "id": "mens_knitwear",
+      "name": "Men's Knitwear",
+      "slug": "mens-knitwear",
+      "gender": "Men",
+      "description": "Cashmere, merino, and textured knit layers.",
+      "imageUrl": "https://images.unsplash.com/photo-1520975916090-3105956dac38?w=900",
+      "sortOrder": 4,
+      "isActive": true
+    },
+    "accessories": {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "gender": "Unisex",
+      "description": "Bags, belts, scarves, and finishing pieces.",
+      "imageUrl": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=900",
+      "sortOrder": 5,
+      "isActive": true
+    }
+  },
+  "products": {
+    "womens-sculptural-wool-overcoat": {
+      "id": "womens-sculptural-wool-overcoat",
+      "name": "Sculptural Wool Overcoat",
+      "subtitle": "Oatmeal Melange",
+      "gender": "Women",
+      "price": 480.0,
+      "badge": "NEW",
+      "imageUrl": "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=900",
+      "collection": "WINTER COLLECTION 2026",
+      "category": "Women's Outerwear",
+      "categoryId": "womens_outerwear",
+      "colors": ["Oatmeal", "Charcoal", "Camel"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 15,
+      "description": "A structured wool coat with clean shoulders, hidden placket, and a refined longline silhouette.",
+      "createdAt": "2026-02-01T09:00:00.000Z"
+    },
+    "mens-charcoal-tailored-blazer": {
+      "id": "mens-charcoal-tailored-blazer",
+      "name": "Charcoal Tailored Blazer",
+      "subtitle": "Italian Wool Blend",
+      "gender": "Men",
+      "price": 390.0,
+      "badge": "EDITOR PICK",
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900",
+      "collection": "SENIOR FORMAL",
+      "category": "Men's Tailoring",
+      "categoryId": "mens_tailoring",
+      "colors": ["Charcoal", "Navy", "Black"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 20,
+      "description": "A sharp single-breasted blazer designed for formal and elevated casual wear.",
+      "createdAt": "2026-02-02T09:00:00.000Z"
+    },
+    "womens-silk-slip-dress": {
+      "id": "womens-silk-slip-dress",
+      "name": "Silk Slip Dress",
+      "subtitle": "Midnight Black",
+      "gender": "Women",
+      "price": 260.0,
+      "badge": "BESTSELLER",
+      "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=900",
+      "collection": "EVENING EDIT",
+      "category": "Women's Dresses",
+      "categoryId": "womens_dresses",
+      "colors": ["Black", "Champagne", "Sage"],
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": 26,
+      "description": "A bias-cut silk dress with a soft drape and adjustable straps.",
+      "createdAt": "2026-02-03T09:00:00.000Z"
+    },
+    "mens-merino-crew-knit": {
+      "id": "mens-merino-crew-knit",
+      "name": "Merino Crew Knit",
+      "subtitle": "Soft Taupe",
+      "gender": "Men",
+      "price": 185.0,
+      "badge": null,
+      "imageUrl": "https://images.unsplash.com/photo-1516826957135-700dedea698c?w=900",
+      "collection": "CORE KNITWEAR",
+      "category": "Men's Knitwear",
+      "categoryId": "mens_knitwear",
+      "colors": ["Taupe", "Forest", "Navy"],
+      "sizes": ["S", "M", "L", "XL"],
+      "stock": 34,
+      "description": "Lightweight merino knitwear with a clean crew neckline and soft hand feel.",
+      "createdAt": "2026-02-04T09:00:00.000Z"
+    },
+    "unisex-archive-leather-tote": {
+      "id": "unisex-archive-leather-tote",
+      "name": "Archive Leather Tote",
+      "subtitle": "Noir Calfskin",
+      "gender": "Unisex",
+      "price": 540.0,
+      "badge": "LIMITED",
+      "imageUrl": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=900",
+      "collection": "ACCESSORIES",
+      "category": "Accessories",
+      "categoryId": "accessories",
+      "colors": ["Noir", "Cognac"],
+      "sizes": ["One Size"],
+      "stock": 9,
+      "description": "A structured calfskin tote with minimal hardware and generous internal space.",
+      "createdAt": "2026-02-05T09:00:00.000Z"
+    },
+    "womens-pleated-wide-trousers": {
+      "id": "womens-pleated-wide-trousers",
+      "name": "Pleated Wide Trousers",
+      "subtitle": "Charcoal Silk Mix",
+      "gender": "Women",
+      "price": 220.0,
+      "badge": null,
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=900",
+      "collection": "STUDIO COLLECTION",
+      "category": "Women's Outerwear",
+      "categoryId": "womens_outerwear",
+      "colors": ["Charcoal", "Ivory"],
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": 18,
+      "description": "A fluid wide-leg trouser with pressed pleats and a high-rise waist.",
+      "createdAt": "2026-02-06T09:00:00.000Z"
+    },
+    "mens-oxford-shirt": {
+      "id": "mens-oxford-shirt",
+      "name": "Relaxed Oxford Shirt",
+      "subtitle": "Cloud White",
+      "gender": "Men",
+      "price": 125.0,
+      "badge": "NEW",
+      "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=900",
+      "collection": "SENIOR ESSENTIALS",
+      "category": "Men's Tailoring",
+      "categoryId": "mens_tailoring",
+      "colors": ["White", "Sky Blue", "Stone"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 42,
+      "description": "A crisp cotton oxford shirt with a relaxed fit and refined collar.",
+      "createdAt": "2026-02-07T09:00:00.000Z"
+    },
+    "womens-linen-wrap-dress": {
+      "id": "womens-linen-wrap-dress",
+      "name": "Linen Wrap Dress",
+      "subtitle": "Natural Ecru",
+      "gender": "Women",
+      "price": 210.0,
+      "badge": null,
+      "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=900",
+      "collection": "SUMMER SENIOR",
+      "category": "Women's Dresses",
+      "categoryId": "womens_dresses",
+      "colors": ["Ecru", "Olive", "Black"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 29,
+      "description": "A breathable linen wrap dress with a clean V-neck and tie waist.",
+      "createdAt": "2026-02-08T09:00:00.000Z"
+    },
+    "mens-cashmere-cardigan": {
+      "id": "mens-cashmere-cardigan",
+      "name": "Cashmere Cardigan",
+      "subtitle": "Heather Grey",
+      "gender": "Men",
+      "price": 310.0,
+      "badge": "PREMIUM",
+      "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=900",
+      "collection": "CORE KNITWEAR",
+      "category": "Men's Knitwear",
+      "categoryId": "mens_knitwear",
+      "colors": ["Grey", "Navy", "Camel"],
+      "sizes": ["S", "M", "L", "XL"],
+      "stock": 16,
+      "description": "A soft cashmere cardigan with horn buttons and a relaxed shape.",
+      "createdAt": "2026-02-09T09:00:00.000Z"
+    },
+    "unisex-wool-scarf": {
+      "id": "unisex-wool-scarf",
+      "name": "Brushed Wool Scarf",
+      "subtitle": "Camel Check",
+      "gender": "Unisex",
+      "price": 95.0,
+      "badge": null,
+      "imageUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=900",
+      "collection": "ACCESSORIES",
+      "category": "Accessories",
+      "categoryId": "accessories",
+      "colors": ["Camel", "Grey", "Black"],
+      "sizes": ["One Size"],
+      "stock": 55,
+      "description": "A warm brushed wool scarf made for layering through colder seasons.",
+      "createdAt": "2026-02-10T09:00:00.000Z"
+    }
+  },
+  "orders": {
+    "order_1001": {
+      "id": "order_1001",
+      "userId": "user_001",
+      "items": [
+        {
+          "productId": "womens-sculptural-wool-overcoat",
+          "productName": "Sculptural Wool Overcoat",
+          "price": 480.0,
+          "imageUrl": "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=900",
+          "selectedColor": "Oatmeal",
+          "selectedSize": "M",
+          "quantity": 1
+        },
+        {
+          "productId": "unisex-wool-scarf",
+          "productName": "Brushed Wool Scarf",
+          "price": 95.0,
+          "imageUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=900",
+          "selectedColor": "Camel",
+          "selectedSize": "One Size",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 575.0,
+      "tax": 57.5,
+      "shipping": 15.0,
+      "total": 647.5,
+      "status": "pending",
+      "shippingAddress": "Amaya Perera, 42 Park Street, Colombo 00700",
+      "createdAt": "2026-03-01T11:00:00.000Z",
+      "updatedAt": "2026-03-01T11:00:00.000Z"
+    },
+    "order_1002": {
+      "id": "order_1002",
+      "userId": "user_002",
+      "items": [
+        {
+          "productId": "mens-charcoal-tailored-blazer",
+          "productName": "Charcoal Tailored Blazer",
+          "price": 390.0,
+          "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900",
+          "selectedColor": "Charcoal",
+          "selectedSize": "L",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 390.0,
+      "tax": 39.0,
+      "shipping": 15.0,
+      "total": 444.0,
+      "status": "processing",
+      "shippingAddress": "Naveen Silva, 18 Lake Road, Kandy 20000",
+      "createdAt": "2026-03-04T09:30:00.000Z",
+      "updatedAt": "2026-03-04T12:00:00.000Z"
+    },
+    "order_1003": {
+      "id": "order_1003",
+      "userId": "user_003",
+      "items": [
+        {
+          "productId": "womens-silk-slip-dress",
+          "productName": "Silk Slip Dress",
+          "price": 260.0,
+          "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=900",
+          "selectedColor": "Black",
+          "selectedSize": "S",
+          "quantity": 1
+        },
+        {
+          "productId": "unisex-archive-leather-tote",
+          "productName": "Archive Leather Tote",
+          "price": 540.0,
+          "imageUrl": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=900",
+          "selectedColor": "Noir",
+          "selectedSize": "One Size",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 800.0,
+      "tax": 80.0,
+      "shipping": 15.0,
+      "total": 895.0,
+      "status": "shipped",
+      "shippingAddress": "Sarah Jayawardena, 7 Palm Avenue, Galle 80000",
+      "createdAt": "2026-03-07T15:45:00.000Z",
+      "updatedAt": "2026-03-08T10:00:00.000Z"
+    },
+    "order_1004": {
+      "id": "order_1004",
+      "userId": "user_004",
+      "items": [
+        {
+          "productId": "mens-merino-crew-knit",
+          "productName": "Merino Crew Knit",
+          "price": 185.0,
+          "imageUrl": "https://images.unsplash.com/photo-1516826957135-700dedea698c?w=900",
+          "selectedColor": "Forest",
+          "selectedSize": "M",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 370.0,
+      "tax": 37.0,
+      "shipping": 15.0,
+      "total": 422.0,
+      "status": "delivered",
+      "shippingAddress": "Dilan Fernando, 91 Marine Drive, Negombo 11500",
+      "createdAt": "2026-03-10T18:15:00.000Z",
+      "updatedAt": "2026-03-13T17:30:00.000Z"
+    },
+    "order_1005": {
+      "id": "order_1005",
+      "userId": "user_005",
+      "items": [
+        {
+          "productId": "womens-linen-wrap-dress",
+          "productName": "Linen Wrap Dress",
+          "price": 210.0,
+          "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=900",
+          "selectedColor": "Olive",
+          "selectedSize": "M",
+          "quantity": 1
+        },
+        {
+          "productId": "mens-oxford-shirt",
+          "productName": "Relaxed Oxford Shirt",
+          "price": 125.0,
+          "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=900",
+          "selectedColor": "White",
+          "selectedSize": "XL",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 335.0,
+      "tax": 33.5,
+      "shipping": 15.0,
+      "total": 383.5,
+      "status": "pending",
+      "shippingAddress": "Leah Mendis, 63 Garden Lane, Jaffna 40000",
+      "createdAt": "2026-03-15T13:20:00.000Z",
+      "updatedAt": "2026-03-15T13:20:00.000Z"
+    }
+  },
+  "cart": {
+    "user_001": {
+      "userId": "user_001",
+      "items": [
+        {
+          "productId": "womens-linen-wrap-dress",
+          "productName": "Linen Wrap Dress",
+          "price": 210.0,
+          "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=900",
+          "selectedColor": "Ecru",
+          "selectedSize": "M",
+          "quantity": 1
+        }
+      ],
+      "updatedAt": "2026-03-16T10:00:00.000Z"
+    },
+    "user_002": {
+      "userId": "user_002",
+      "items": [
+        {
+          "productId": "mens-cashmere-cardigan",
+          "productName": "Cashmere Cardigan",
+          "price": 310.0,
+          "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=900",
+          "selectedColor": "Grey",
+          "selectedSize": "L",
+          "quantity": 1
+        },
+        {
+          "productId": "unisex-wool-scarf",
+          "productName": "Brushed Wool Scarf",
+          "price": 95.0,
+          "imageUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=900",
+          "selectedColor": "Black",
+          "selectedSize": "One Size",
+          "quantity": 1
+        }
+      ],
+      "updatedAt": "2026-03-16T10:05:00.000Z"
+    },
+    "user_003": {
+      "userId": "user_003",
+      "items": [
+        {
+          "productId": "womens-pleated-wide-trousers",
+          "productName": "Pleated Wide Trousers",
+          "price": 220.0,
+          "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=900",
+          "selectedColor": "Charcoal",
+          "selectedSize": "S",
+          "quantity": 1
+        }
+      ],
+      "updatedAt": "2026-03-16T10:10:00.000Z"
+    },
+    "user_004": {
+      "userId": "user_004",
+      "items": [
+        {
+          "productId": "mens-oxford-shirt",
+          "productName": "Relaxed Oxford Shirt",
+          "price": 125.0,
+          "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=900",
+          "selectedColor": "Sky Blue",
+          "selectedSize": "M",
+          "quantity": 2
+        }
+      ],
+      "updatedAt": "2026-03-16T10:15:00.000Z"
+    },
+    "user_005": {
+      "userId": "user_005",
+      "items": [
+        {
+          "productId": "unisex-archive-leather-tote",
+          "productName": "Archive Leather Tote",
+          "price": 540.0,
+          "imageUrl": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=900",
+          "selectedColor": "Cognac",
+          "selectedSize": "One Size",
+          "quantity": 1
+        }
+      ],
+      "updatedAt": "2026-03-16T10:20:00.000Z"
+    }
+  }
+}
